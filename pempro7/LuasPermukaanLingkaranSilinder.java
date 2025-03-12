@@ -38,7 +38,7 @@ public class LuasPermukaanLingkaranSilinder {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = Integer.parseInt(scanner.nextLine());
-        List<Bidang> bidangs = new ArrayList<>();
+        List<Bidang> bidang2 = new ArrayList<>();
         double[] areas = new double[N];
 
         for (int i = 0; i < N; i++) {
@@ -56,7 +56,7 @@ public class LuasPermukaanLingkaranSilinder {
                 bidang = new Silinder(radius, tinggi);
             }
 
-            bidangs.add(bidang);
+            bidang2.add(bidang);
             areas[i] = bidang.hitungLuas();
         }
 
