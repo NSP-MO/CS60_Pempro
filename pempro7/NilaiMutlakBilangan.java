@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 interface Number {
     double absoluteValue();
