@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "IOJava",
+      "request": "launch",
+      "mainClass": "pempro5.IOJava",
+      "projectName": "Pempro_3366d674"
+    },
+    {
+      "type": "java",
+      "name": "IPKOOPJava",
+      "request": "launch",
+      "mainClass": "pempro5.IPKOOPJava",
+      "projectName": "Pempro_3366d674"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Hp/Documents/workspace/CS60/Semester 4/Pempro/pempro1",
+      "program": "c:/Users/Hp/Documents/workspace/CS60/Semester 4/Pempro/pempro1/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
